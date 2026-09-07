@@ -1,0 +1,10 @@
+{
+  "routes": [
+    {
+      "route": "/.well-known/com.apple.remotemanagement",
+      "headers": {
+        "content-type": "application/json"
+      }
+    }
+  ]
+}
