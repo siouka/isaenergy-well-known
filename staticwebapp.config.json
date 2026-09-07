@@ -1,10 +1,11 @@
 {
+  "mimeTypes": {
+    ".json": "application/json"
+  },
   "routes": [
     {
       "route": "/.well-known/com.apple.remotemanagement",
-      "headers": {
-        "content-type": "application/json"
-      }
+      "rewrite": "/.well-known/com.apple.remotemanagement.json"
     }
   ]
 }
